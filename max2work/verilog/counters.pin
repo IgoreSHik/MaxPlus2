@@ -1,0 +1,287 @@
+-- Copyright (C) 1988-2000 Altera Corporation
+-- Any megafunction design, and related net list (encrypted or decrypted),
+-- support information, device programming or simulation file, and any other
+-- associated documentation or information provided by Altera or a partner
+-- under Altera's Megafunction Partnership Program may be used only to
+-- program PLD devices (but not masked PLD devices) from Altera.  Any other
+-- use of such megafunction design, net list, support information, device
+-- programming or simulation file, or any other related documentation or
+-- information is prohibited for any other purpose, including, but not
+-- limited to modification, reverse engineering, de-compiling, or use with
+-- any other silicon devices, unless such use is explicitly licensed under
+-- a separate agreement with Altera or a megafunction partner.  Title to
+-- the intellectual property, including patents, copyrights, trademarks,
+-- trade secrets, or maskworks, embodied in any such megafunction design,
+-- net list, support information, device programming or simulation file, or
+-- any other related documentation or information provided by Altera or a
+-- megafunction partner, remains with Altera, the megafunction partner, or
+-- their respective licensors.  No other licenses, including any licenses
+-- needed under any third party's intellectual property, are provided herein.
+
+
+
+N.C. = No Connect. This pin has no internal connection to the device.
+VCCINT = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+VCCIO = Dedicated power pin, which MUST be connected to VCC (2.5 volts).
+GND = Dedicated ground pin or unused dedicated input, which MUST be connected to GND.
+RESERVED = Unused I/O pin, which MUST be left unconnected.
+
+----------------------------------------------------------------------------
+
+CHIP "counters" ASSIGNED TO AN EP1K10FC256-1
+DATA0                            : A1
+ql6                              : A2
+GND                              : A3
+RESERVED                         : A4
+ql0                              : A5
+RESERVED                         : A6
+qi5                              : A7
+qk2                              : A8
+clk                              : A9
+qb6                              : A10
+qd4                              : A11
+d6                               : A12
+qk6                              : A13
+GND                              : A14
+qb2                              : A15
+d4                               : A16
+nCE                              : B1
+DCLK                             : B2
+ql5                              : B3
+RESERVED                         : B4
+qa1                              : B5
+qg6                              : B6
+qm2                              : B7
+qk0                              : B8
+enable                           : B9
+qi2                              : B10
+qd3                              : B11
+d3                               : B12
+qh5                              : B13
+qb3                              : B14
+TCK                              : B15
+nCEO                             : B16
+N.C.                             : C1
+TDI                              : C2
+qc7                              : C3
+qc4                              : C4
+qg1                              : C5
+qh2                              : C6
+GND                              : C7
+qm4                              : C8
+qj7                              : C9
+qa6                              : C10
+qd7                              : C11
+RESERVED                         : C12
+qh7                              : C13
+qk7                              : C14
+CONF_DONE                        : C15
+TDO                              : C16
+N.C.                             : D1
+N.C.                             : D2
+N.C.                             : D3
+ql1                              : D4
+qg0                              : D5
+qg4                              : D6
+RESERVED                         : D7
+RESERVED                         : D8
+qj6                              : D9
+qi1                              : D10
+qe2                              : D11
+VCCIO                            : D12
+d2                               : D13
+N.C.                             : D14
+qa0                              : D15
+N.C.                             : D16
+N.C.                             : E1
+qn1                              : E2
+N.C.                             : E3
+qa2                              : E4
+GND                              : E5
+VCCIO                            : E6
+qn3                              : E7
+ld                               : E8
+qf6                              : E9
+qi0                              : E10
+VCCINT                           : E11
+GND                              : E12
+qi7                              : E13
+N.C.                             : E14
+N.C.                             : E15
+N.C.                             : E16
+qc2                              : F1
+qd5                              : F2
+N.C.                             : F3
+N.C.                             : F4
+VCCINT                           : F5
+GND                              : F6
+VCCINT                           : F7
+VCCIO                            : F8
+VCCINT                           : F9
+VCCIO                            : F10
+GND                              : F11
+VCCINT                           : F12
+N.C.                             : F13
+N.C.                             : F14
+N.C.                             : F15
+N.C.                             : F16
+qj0                              : G1
+qn7                              : G2
+N.C.                             : G3
+qc1                              : G4
+qn0                              : G5
+VCCIO                            : G6
+GND                              : G7
+VCCIO                            : G8
+GND                              : G9
+GND                              : G10
+VCCIO                            : G11
+qa5                              : G12
+qn5                              : G13
+qd0                              : G14
+qd6                              : G15
+qd2                              : G16
+N.C.                             : H1
+qh0                              : H2
+N.C.                             : H3
+N.C.                             : H4
+qh3                              : H5
+VCCINT                           : H6
+VCCINT                           : H7
+GND                              : H8
+GND                              : H9
+VCCINT                           : H10
+VCCIO                            : H11
+qe5                              : H12
+qk3                              : H13
+N.C.                             : H14
+qe4                              : H15
+N.C.                             : H16
+N.C.                             : J1
+qe3                              : J2
+qi4                              : J3
+qj2                              : J4
+qi6                              : J5
+VCCIO                            : J6
+VCCINT                           : J7
+GND                              : J8
+GND                              : J9
+VCCINT                           : J10
+VCCINT                           : J11
+qf3                              : J12
+qb4                              : J13
+qe6                              : J14
+qj3                              : J15
+qf2                              : J16
+qg5                              : K1
+qf5                              : K2
+N.C.                             : K3
+ql4                              : K4
+GND                              : K5
+VCCIO                            : K6
+GND                              : K7
+VCCIO                            : K8
+VCCINT                           : K9
+GND                              : K10
+VCCIO                            : K11
+ql3                              : K12
+qf4                              : K13
+N.C.                             : K14
+N.C.                             : K15
+N.C.                             : K16
+GND                              : L1
+N.C.                             : L2
+N.C.                             : L3
+N.C.                             : L4
+VCCINT                           : L5
+GND                              : L6
+VCCINT                           : L7
+d0                               : L8
+VCC_CKLK                         : L9
+VCCIO                            : L10
+GND                              : L11
+VCCINT                           : L12
+qj4                              : L13
+N.C.                             : L14
+N.C.                             : L15
+N.C.                             : L16
+qg3                              : M1
+N.C.                             : M2
+N.C.                             : M3
+N.C.                             : M4
+GND                              : M5
+VCCIO                            : M6
+qm0                              : M7
+qk1                              : M8
+clear                            : M9
+qe0                              : M10
+VCCINT                           : M11
+GND                              : M12
+d7                               : M13
+N.C.                             : M14
+N.C.                             : M15
+N.C.                             : M16
+N.C.                             : N1
+N.C.                             : N2
+qc3                              : N3
+nCONFIG                          : N4
+qc0                              : N5
+qg7                              : N6
+qm3                              : N7
+qm6                              : N8
+qb5                              : N9
+qa4                              : N10
+qe1                              : N11
+VCCIO                            : N12
+qh6                              : N13
+N.C.                             : N14
+N.C.                             : N15
+N.C.                             : N16
+MSEL0                            : P1
+N.C.                             : P2
+qc6                              : P3
+ql2                              : P4
+RESERVED                         : P5
+qh1                              : P6
+qm5                              : P7
+RESERVED                         : P8
+qd1                              : P9
+qa7                              : P10
+N.C.                             : P11
+qk4                              : P12
+qe7                              : P13
+N.C.                             : P14
+TMS                              : P15
+N.C.                             : P16
+MSEL1                            : R1
+VCCINT                           : R2
+RESERVED                         : R3
+d1                               : R4
+qm7                              : R5
+RESERVED                         : R6
+qm1                              : R7
+up_down                          : R8
+qj5                              : R9
+qa3                              : R10
+qf0                              : R11
+qf7                              : R12
+qh4                              : R13
+d5                               : R14
+qj1                              : R15
+TRST                             : R16
+N.C.                             : T1
+qc5                              : T2
+qn6                              : T3
+qn4                              : T4
+qg2                              : T5
+ql7                              : T6
+qn2                              : T7
+GND_CKLK                         : T8
+qb7                              : T9
+qi3                              : T10
+qf1                              : T11
+qk5                              : T12
+RESERVED                         : T13
+qb1                              : T14
+qb0                              : T15
+nSTATUS                          : T16
